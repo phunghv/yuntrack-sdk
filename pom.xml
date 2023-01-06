@@ -10,6 +10,14 @@
     <name>YunTrack SDK</name>
     <url>http://maven.apache.org</url>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub PhungHV Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/phunghv/yuntrack-sdk</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lombok.version>1.18.24</lombok.version>
@@ -58,4 +66,5 @@
             <version>${retrofit.version}</version>
         </dependency>
     </dependencies>
+
 </project>
